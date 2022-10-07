@@ -57,8 +57,7 @@
     - virtualbox-host-dkms
     - linux-lts-headers
     - linux-lts
-
-  - name: "Filemanagers"
+- name: "Filemanagers"
   description: "Filemanagers"
   critical: false
   hidden: false
@@ -73,8 +72,7 @@
     - nemo-fileroller
     - pcmanfm
     - ranger
-
-  - name: "Communication"
+- name: "Communication"
   description: "Communication software"
   critical: false
   hidden: false
