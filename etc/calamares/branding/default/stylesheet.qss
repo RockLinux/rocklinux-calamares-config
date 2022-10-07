@@ -98,7 +98,9 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 
 /* START OF QSS */
 
-#mainApp { }
+#mainApp {
+  background-color: #969696;
+}
 
 #sidebarApp {
   background-color: #444;

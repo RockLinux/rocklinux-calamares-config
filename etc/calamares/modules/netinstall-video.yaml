@@ -9,19 +9,18 @@
       description: NVIDIA drivers for linux
     - name: nvidia-dkms
       description: NVIDIA drivers - module sources
-    - name: nvidia-settings 
-      description: Tool for configuring the NVIDIA graphics driver  
-    - name: nvidia-utils 
-      description: NVIDIA drivers utilities 
-    - name: nvtop 
+    - name: nvidia-settings
+      description: Tool for configuring the NVIDIA graphics driver
+    - name: nvidia-utils
+      description: NVIDIA drivers utilities
+    - name: nvtop
       description: htop-like monitoring tool for NVIDIA GPUs
-
 - name: "AMD"
   description: "Already built into kernel"
   hidden: false
   selected: false
   critical: false
   expanded: false
-  packages: 
+  packages:
     - name: radeontop
-     description: Monitoring tool for AMD GPUs
+      description: Monitoring tool for AMD GPUs
