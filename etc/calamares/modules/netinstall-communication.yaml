@@ -5,10 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - hexchat    
-    - krdc
-    - pidgin    
-    - qtox
-    - remmina
-    - tigervnc   
-    - wire-desktop
+    - name: discord
+      description: Discord
+    - name: element-desktop
+      description: Matrix Client web version

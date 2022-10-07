@@ -57,3 +57,31 @@
     - virtualbox-host-dkms
     - linux-lts-headers
     - linux-lts
+
+  - name: "Filemanagers"
+  description: "Filemanagers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - caja
+    - dolphin
+    - mc
+    - nautilus
+    - nemo
+    - nemo-fileroller
+    - pcmanfm
+    - ranger
+
+  - name: "Communication"
+  description: "Communication software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - name: discord
+      description: Discord
+    - name: element-desktop
+      description: Matrix Client web version

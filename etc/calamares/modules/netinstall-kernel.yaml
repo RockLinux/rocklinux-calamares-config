@@ -1,0 +1,48 @@
+- name: "Linux"
+  description: "Linux Kernel"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages: 
+    - name: linux
+      description: "Normal Linux Kernel"
+    - linux-api-headers
+    - linux-docs  
+    - linux-headers
+
+- name: "Linux-lts"
+  description: "LTS Linux Kernel"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: linux-lts
+      description: LTS linux kernel
+    - linux-lts-docs
+    - linux-lts-headers
+
+- name: "Linux Hardened"
+  description: "Hardened Linux Kernel"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: linux-hardened
+      description: Hardened version of the linux kernel
+    - linux-hardened-docs
+    - linux-hardened-headers
+
+- name: "Linux Zen"
+  description: "Linux Zen Kernel"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: linux-zen
+      description: linux-zen kernel
+    - linux-zen-docs
+    - linux-zen-headers
