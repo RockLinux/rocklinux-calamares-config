@@ -111,7 +111,7 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 }
 
 #sidebarMenuApp{
-  background-color: #444;
+  background-color: #282a36;
   font: 20px;
 }
 
