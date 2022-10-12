@@ -164,7 +164,7 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "rocklinuxbase.png"
+    # productIcon:         "squid.png"
     productLogo:         "rocklinuxbase.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "rocklinuxbase.svg"
