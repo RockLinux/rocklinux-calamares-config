@@ -10,7 +10,6 @@
     - linux-api-headers
     - linux-docs  
     - linux-headers
-
 - name: "Linux-lts"
   description: "LTS Linux Kernel"
   hidden: false
@@ -22,7 +21,6 @@
       description: LTS linux kernel
     - linux-lts-docs
     - linux-lts-headers
-
 - name: "Linux Hardened"
   description: "Hardened Linux Kernel"
   hidden: false
@@ -34,7 +32,6 @@
       description: Hardened version of the linux kernel
     - linux-hardened-docs
     - linux-hardened-headers
-
 - name: "Linux Zen"
   description: "Linux Zen Kernel"
   hidden: false
@@ -46,3 +43,30 @@
       description: linux-zen kernel
     - linux-zen-docs
     - linux-zen-headers
+- name: "Nvidia"
+  description: "Nvidia Drivers and Utils"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: nvidia
+      description: NVIDIA drivers for linux
+    - name: nvidia-dkms
+      description: NVIDIA drivers - module sources
+    - name: nvidia-settings
+      description: Tool for configuring the NVIDIA graphics driver
+    - name: nvidia-utils
+      description: NVIDIA drivers utilities
+    - name: nvtop
+      description: htop-like monitoring tool for NVIDIA GPUs
+- name: "AMD"
+  description: "Already built into kernel"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: radeontop
+      description: Monitoring tool for AMD GPUs
+  
