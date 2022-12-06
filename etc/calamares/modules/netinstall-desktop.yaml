@@ -1,0 +1,11 @@
+- name: "Desktop"
+  description: "Desktop"
+  hidden: false
+  selected: true
+  critical: false
+  expanded: false
+  packages:
+    - picom
+    - awesome
+    - alacritty
+    - rocklinux-awesomewm-config
