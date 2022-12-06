@@ -4,11 +4,11 @@
   selected: false
   critical: false
   expanded: false
-  packages: 
+  packages:
     - name: linux
       description: "Normal Linux Kernel"
     - linux-api-headers
-    - linux-docs  
+    - linux-docs
     - linux-headers
 - name: "Linux-lts"
   description: "LTS Linux Kernel"
@@ -69,4 +69,18 @@
   packages:
     - name: radeontop
       description: Monitoring tool for AMD GPUs
-  
+- name: "AwesomeWM"
+  description: "Awesome Desktop Configuration and additional packages"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - name: awesome
+      description: AwesomeWM
+    - name: rocklinux-awesomewm-config
+      description: desktop config
+    - name: picom
+      description: compositor
+    - name: alacritty
+      description: terminal
